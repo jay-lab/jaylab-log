@@ -60,7 +60,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: "jay-lab/jaylab-log",
+      repo: "jay-lab/jaylab-log-utterance",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
