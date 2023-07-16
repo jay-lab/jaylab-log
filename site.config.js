@@ -58,7 +58,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
       repo: "jay-lab/jaylab-log",
       "issue-term": "og:title",
@@ -66,7 +66,7 @@ const CONFIG = {
     },
   },
   cusdis: {
-    enable: true,
+    enable: false,
     config: {
       host: "https://cusdis.com",
       appid: "", // Embed Code -> data-app-id value
