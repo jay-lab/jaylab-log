@@ -51,9 +51,9 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
-      repo: "morethanmin/morethan-log",
+      repo: "jay-lab/jaylab-log",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
