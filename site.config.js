@@ -26,10 +26,17 @@ const CONFIG = {
   // CONFIG configration (required)
   link: "https://jaylab.vercel.app",
   since: 2023, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ["Blog", "Website", "Notion"],
+    keywords: [
+      "Blog", 
+      "Website", 
+      "Notion",
+      "jaylab",
+      "developer",
+      "backend",
+      "AWS"],
   },
 
   // notion configuration (required)
@@ -59,7 +66,7 @@ const CONFIG = {
     },
   },
   cusdis: {
-    enable: false,
+    enable: true,
     config: {
       host: "https://cusdis.com",
       appid: "", // Embed Code -> data-app-id value
