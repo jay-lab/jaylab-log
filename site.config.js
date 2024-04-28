@@ -10,12 +10,12 @@ const CONFIG = {
     github: "jay-lab",
     instagram: "",
   },
-  // projects: [
-  //   {
-  //     name: `jaylab-log`,
-  //     href: "https://github.com/jay-lab/jaylab-log",
-  //   },
-  // ],
+  projects: [
+    // {
+    //   name: `jaylab-log`,
+    //   href: "https://github.com/jay-lab/jaylab-log",
+    // },
+  ],
   // blog setting (required)
   blog: {
     title: "Jaylab-log",
