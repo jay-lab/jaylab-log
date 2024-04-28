@@ -1,7 +1,7 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "jiny",
+    name: "Jiny",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "this and that developer",
     bio: "🌺 You only live once (YOLO)",
@@ -10,16 +10,16 @@ const CONFIG = {
     github: "jay-lab",
     instagram: "",
   },
-  projects: [
-    {
-      name: `jaylab-log`,
-      href: "https://github.com/jay-lab/jaylab-log",
-    },
-  ],
+  // projects: [
+  //   {
+  //     name: `jaylab-log`,
+  //     href: "https://github.com/jay-lab/jaylab-log",
+  //   },
+  // ],
   // blog setting (required)
   blog: {
-    title: "jaylab-log",
-    description: "welcome to jaylab-log!",
+    title: "Jaylab-log",
+    description: "Welcome to Jaylab-log!",
   },
 
   // CONFIG configration (required)
