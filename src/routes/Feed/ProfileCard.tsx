@@ -73,7 +73,7 @@ const StyledWrapper = styled.div`
       }
       .bio {
         margin-bottom: 0.26rem;
-        font-size: 0.98rem;
+        font-size: 0.95rem;
         line-height: 1.25rem;
       }
     }
