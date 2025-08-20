@@ -52,12 +52,10 @@ const CONFIG = {
       siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "",
     },
   },
-  utterances: {
+  disqus: {
     enable: true,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
-      "issue-term": "og:title",
-      label: "💬 Utterances",
+      shortname: process.env.NEXT_PUBLIC_DISQUS_SHORTNAME || "",
     },
   },
   cusdis: {

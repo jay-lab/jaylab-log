@@ -2,9 +2,9 @@ import { TPost } from "src/types"
 import { CONFIG } from "site.config"
 import dynamic from "next/dynamic"
 
-const UtterancesComponent = dynamic(
+const DisqusComponent = dynamic(
   () => {
-    return import("./Utterances")
+    return import("./Disqus")
   },
   { ssr: false }
 )
@@ -22,7 +22,9 @@ type Props = {
 const CommentBox: React.FC<Props> = ({ data }) => {
   return (
     <div>
-      {CONFIG.utterances.enable && <UtterancesComponent issueTerm={data.id} />}
+      {CONFIG.disqus.enable && (
+        <DisqusComponent id={data.id} slug={data.slug} title={data.title} />
+      )}
       {CONFIG.cusdis.enable && (
         <CusdisComponent id={data.id} slug={data.slug} title={data.title} />
       )}
